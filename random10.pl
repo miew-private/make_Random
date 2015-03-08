@@ -16,7 +16,7 @@ $charcat{'*'} = $charcat{'B'} . $charcat{'A'} .
                 $charcat{'b'} . $charcat{'a'} .
                 $charcat{'0'} . $charcat{'@'};
 
-@template = split('-', 'cec-ece-@-@-0-n');
+@template = split('-', 'cec-ece-@-@-0-0');
 $nmax = (($nmax = $ARGV[0] + 0) <= 0 ? 1 : $nmax);
 
 srand (time ^ $$ ^ unpack "%L*", `ps axww | gzip`);
